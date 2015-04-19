@@ -27,6 +27,8 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise', '~> 3.4.1'
+gem 'omniauth-venmo', '~> 1.1.1'
+gem 'figaro', '~> 1.1.0'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
